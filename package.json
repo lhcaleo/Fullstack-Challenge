@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhcaleo/Fullstack-Challenge.git"
+  },
+  "author": "\"Hao\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhcaleo/Fullstack-Challenge/issues"
+  },
+  "homepage": "https://github.com/lhcaleo/Fullstack-Challenge#readme"
+}
