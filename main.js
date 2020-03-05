@@ -13,7 +13,6 @@ const gameData = JSON.parse(fs.readFileSync("./games.json", "utf-8", function (e
 }));
 
 
-
 app.get("/", function(req, res){
     res.send("Hello!");
 });
@@ -28,12 +27,9 @@ app.get("/search", function(req, res){
     // additional 10 more from given index
     output = result.slice(index, index + 10);
     res.send(output);
-    console.log(output.length);
 });
 
 
 app.listen(port, function(){
     console.log("Now serving the app on port: " + port);
 });
-
-//http://localhost:3000/search?query=tree&index=0
